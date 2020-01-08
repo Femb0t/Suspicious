@@ -1,0 +1,110 @@
+.aw-bg-tan {
+    background-color: #fae3c4;
+}
+
+.aw-code {
+    line-height: 1rem;
+    padding: .2rem .4rem;
+    font-size: 90%;
+    color: #bd4147;
+    background-color: #f8f9fa;
+    border-radius: .25rem;
+}
+
+.aw-grid > .col, .aw-grid [class^=col-] {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+}
+
+.aw-height {
+    height: 8rem;
+}
+
+.aw-height-tall {
+    height: 12rem;
+}
+
+.aw-highlight {
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+}
+
+.aw-hr-white {
+    margin-top: 0;
+    height: 1px;
+    background-color: #fff;
+    margin-left: 0px;
+}
+
+.aw-line-height {
+    line-height: 1.5rem;
+}
+
+.aw-profile-pic {
+    width: 80px;
+    height: 53px;
+}
+
+.aw-px{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.aw-scrollspy-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.aw-scrollspy-fixed {
+    position: fixed;
+    z-index: 99;
+}
+
+.aw-scrollspy-heading {
+    padding-top: 4rem;
+}
+
+.aw-scrollspy-example {
+    position: relative;
+    height: 200px;
+    margin-top: .5rem; 
+    overflow-y: scroll; 
+}
+
+.aw-scrollspy-example-2 {
+    position: relative;
+    height: 370px;
+    overflow: auto;
+}
+
+@media (min-width: 576px) {
+    .aw-px{
+        padding-left: 2.75rem !important;
+        padding-right: 2.75rem !important;        
+    }    
+}
+
+@media (min-width: 768px) {
+    .aw-px{
+        padding-left: 4rem !important;
+        padding-right: 4rem !important;        
+    }
+}
+
+@media (min-width: 992px) {
+    .aw-px{
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .aw-scrollspy-container {
+        max-width: 1140px;
+    }
+}
